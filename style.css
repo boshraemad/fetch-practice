@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Tahoma, Arial;;
+}
+.repos-container{
+    width:800px;
+    margin:20px auto;
+    background-color: #F6F6F6;
+}
+.get-repos{
+    padding:20px;
+    display:flex;
+    align-items: center;
+    gap:40px;
+    background-color: #EEE;
+}
+.get-repos input{
+    width:100%;
+    height:54px;
+    padding:15px 20px;
+    border:none;
+    font-size: 20px;
+}
+.get-repos input:focus{
+    outline: 2px solid #e91e6256;
+}
+.get-repos .get-button{
+    width:140px;
+    background-color: #e91e6256;
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    padding:10px;
+    border-radius: 5px;
+}
+.repos-container .show-data{
+    position:relative;
+    padding:20px;
+    background-color: #E0E0E0;
+
+}
+.repos-container .show-data .repo-box{
+    background-color: #fff;
+    padding:20px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.repos-container .show-data .repo-box:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.repos-container .show-data .repo-box .controls a,
+.repos-container .show-data .repo-box .controls span{
+    text-decoration: none;
+    margin-left:4px;
+    padding: 5px 10px;
+    text-align: center;
+    color:white;
+    border-radius: 4px;
+}
+.repos-container .show-data .repo-box .controls a{
+    background-color: #e91e6256;
+}
+.repos-container .show-data .repo-box .controls span {
+    background-color: rgb(112, 59, 68);
+  }
